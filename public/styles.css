@@ -1,0 +1,50 @@
+:root {
+  --bg: #0f172a;
+  --card: #111827;
+  --text: #e5e7eb;
+  --accent: #38bdf8;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  min-height: 100vh;
+}
+
+aside {
+  background: #020617;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+aside h1 {
+  font-size: 1.4rem;
+}
+
+nav a {
+  display: block;
+  color: var(--text);
+  text-decoration: none;
+  margin: 8px 0;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+main {
+  padding: 2rem;
+}
+
+.card {
+  background: var(--card);
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-top: 1rem;
+}

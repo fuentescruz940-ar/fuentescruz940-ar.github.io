@@ -1,0 +1,54 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+---
+
+<MainLayout title="Mi Portafolio">
+
+  <aside>
+    <h1>Mi Portafolio</h1>
+
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#sobre">Sobre mi</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <button id="themeToggle">☀️</button>
+  </aside>
+
+  <main>
+
+    <section id="inicio">
+      <h2>Hola, soy Juan Eduardo Fuentes Cruz</h2>
+      <p>Desarrollador Web & Ingeniero en Sistemas.</p>
+    </section>
+
+    <section id="sobre" class="card">
+      <h3>Sobre mi</h3>
+      <p>Tu texto aquí…</p>
+    </section>
+
+    <section id="habilidades" class="card">
+      <h3>Habilidades</h3>
+      <ul>
+        <li>HTML / CSS / JS</li>
+        <li>Git & GitHub</li>
+        <li>Responsive Design</li>
+      </ul>
+    </section>
+
+    <section id="proyectos" class="card">
+      <h3>Proyectos</h3>
+      <p>Enlaces a tus proyectos…</p>
+    </section>
+
+    <section id="contacto" class="card">
+      <h3>Contacto</h3>
+      <p>tucorreo@example.com</p>
+    </section>
+
+  </main>
+
+</MainLayout>
